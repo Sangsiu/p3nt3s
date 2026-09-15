@@ -5,7 +5,6 @@ data/logs/*
 data/cache/*.db
 data/cache/ai_cache.json
 data/cache/translate_cache.json
-*.docx
 *.pdf
 *.html
 *.xml
