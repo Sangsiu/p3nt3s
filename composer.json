@@ -1,0 +1,17 @@
+{
+    "name": "pentest/report-generator",
+    "description": "Pentest Report Generator V3 - Burp Suite XML/HTML to Word Report",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "stichoza/google-translate-php": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PentestReport\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

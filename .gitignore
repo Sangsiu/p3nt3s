@@ -1,0 +1,13 @@
+.env
+ssh/
+vendor/
+*.html
+*.xml
+*.pdf
+~$*.docx
+data/logs/
+data/cache/*.db
+data/cache/*.sqlite
+data/cache/ai_cache.json
+data/cache/translate_cache.json
+data/cache/keys.json

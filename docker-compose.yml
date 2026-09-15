@@ -1,0 +1,15 @@
+services:
+  pentest:
+    build: .
+    container_name: pentest-report
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/var/www/html/data
+    networks:
+      - web
+
+networks:
+  web:
+    external: true

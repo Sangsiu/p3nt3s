@@ -1,0 +1,14 @@
+# ── SECURITY CONFIGURATION FOR APACHE ────────────────────────────────
+# Menghindari direktori listing secara publik
+Options -Indexes
+
+# Cegah akses langsung browser ke file sensitif di root
+<FilesMatch "\.(json|log|lock|phar|docx|zip|md|lock)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>

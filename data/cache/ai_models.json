@@ -1,0 +1,75 @@
+{
+    "models": {
+        "groq": [
+            {
+                "value": "qwen/qwen3.8-27b",
+                "text": "qwen/qwen3.8-27b",
+                "created": 1786984846
+            },
+            {
+                "value": "qwen/qwen3.6-27b",
+                "text": "qwen/qwen3.6-27b",
+                "created": 1778288776
+            },
+            {
+                "value": "canopylabs/orpheus-v1-english",
+                "text": "canopylabs/orpheus-v1-english",
+                "created": 1766186316
+            },
+            {
+                "value": "canopylabs/orpheus-arabic-saudi",
+                "text": "canopylabs/orpheus-arabic-saudi",
+                "created": 1765926439
+            },
+            {
+                "value": "openai/gpt-oss-safeguard-20b",
+                "text": "openai/gpt-oss-safeguard-20b",
+                "created": 1761708789
+            },
+            {
+                "value": "groq/compound-mini",
+                "text": "groq/compound-mini",
+                "created": 1756949707
+            },
+            {
+                "value": "groq/compound",
+                "text": "groq/compound",
+                "created": 1756949530
+            },
+            {
+                "value": "openai/gpt-oss-120b",
+                "text": "openai/gpt-oss-120b",
+                "created": 1754408224
+            },
+            {
+                "value": "openai/gpt-oss-20b",
+                "text": "openai/gpt-oss-20b",
+                "created": 1754407957
+            },
+            {
+                "value": "meta-llama/llama-prompt-guard-2-86m",
+                "text": "meta-llama/llama-prompt-guard-2-86m",
+                "created": 1748632165
+            },
+            {
+                "value": "meta-llama/llama-prompt-guard-2-22m",
+                "text": "meta-llama/llama-prompt-guard-2-22m",
+                "created": 1748632101
+            },
+            {
+                "value": "allam-2-7b",
+                "text": "allam-2-7b",
+                "created": 1737672203
+            },
+            {
+                "value": "custom",
+                "text": "Model Lainnya (Tulis Kustom...)",
+                "created": 0
+            }
+        ]
+    },
+    "updated_at": "2026-09-08T07:35:24+07:00",
+    "updated_at_by_provider": {
+        "groq": "2026-09-08T07:35:24+07:00"
+    }
+}
