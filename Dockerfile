@@ -1,7 +1,7 @@
 FROM php:8.2-apache
 
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends libzip-dev libxml2-dev unzip git \
+    && apt-get install -y --no-install-recommends libcurl4-openssl-dev libzip-dev libxml2-dev unzip git \
     && docker-php-ext-install -j"$(nproc)" curl dom mbstring xml zip \
     && a2enmod rewrite headers \
     && rm -rf /var/lib/apt/lists/*
